@@ -350,7 +350,6 @@ for key, value in dict_of_photos.items():
     draw.line((object_car.left_x, object_car.top_y + object_car.height, object_car.left_x + object_car.width, object_car.top_y + object_car.height), width=2, fill='red')
     draw.text((object_car.left_x, object_car.top_y), line, fill='red', font = font)
 
-
 image.save("empty.png", "PNG")
 
 
